@@ -1,0 +1,89 @@
+/* experiencia*/
+.experience {
+
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.experiencie__box {
+    display: flex;
+    width: 78.8%;
+    height: 406px;
+    align-items: center;
+    gap: 16px;
+}
+.invert{
+    display: flex;
+flex-direction: row-reverse;
+}
+
+.experiencie__info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    flex: 1 0 0;
+}
+
+.experience__title {
+    color: var(--preto-100);
+    font-family: Raleway;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+}
+
+.experience__text {
+    color: var(--preto-100);
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.experience__description {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    
+}
+
+.experiencia__botao--repo {
+    border: 1px solid var(--azul-100);
+    color: var(--azul-100, #2A7AE4);
+    display: flex;
+    padding: 16px;
+    justify-content: center;
+    gap: 10px;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.experience__botao--demo {
+    border: 1px solid var(--azul-100, #2A7AE4);
+    background: var(--azul-100, #2A7AE4);
+    color: var(--preto-branco, #FFF);
+    display: flex;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+}

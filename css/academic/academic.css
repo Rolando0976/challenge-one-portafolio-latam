@@ -1,0 +1,41 @@
+/* Experiencia Académica*/
+
+.academic {
+    display: flex;
+    background-color: var(--cor-azul-10);
+    padding: 82px;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    align-self: stretch;
+}
+
+.academic__title {
+    color: var(--preto-100);
+    text-align: center;
+    font-size: 32px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.academic__courses {
+    width: 78.8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+   
+}
+
+.academic__courses__box {
+    background-color: var(--preto-branco);
+    display: flex;
+    width: 34.6%;
+    height: 286px;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
